@@ -46,8 +46,9 @@ main {
 }
 
 .cards {
-    display: flex;
-    gap: 20px;
+    display:flex;
+    gap: 50px;
+    padding-left:20%;
 }
 
 .card {
@@ -56,6 +57,7 @@ main {
     padding: 15px;
     text-align: center;
     transition: transform 0.3s;
+    justify-content:space-evenly;
 }
 
 .card:hover {
@@ -67,17 +69,100 @@ main {
     border-radius: 10px 10px 0 0;
 }
 
-button {
-    background-color: #e67e22;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+box-busca{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    padding:50%;
 }
 
-button:hover {
-    background-color: #d35400;
+
+.search-box-input::placeholder {
+    
+    color:#ffffff;
+    opacity: 0.6;
+
+}
+
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder { color: #ffffff; }
+
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+
+
+.search-box  {
+    
+    display: flex;
+    border-radius: 50px;
+    background-color: #4c4c4c;
+    height: 50px;
+    width: 430px;;
+
+}
+
+.search-box:hover .search-box-input {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+
+}
+
+.search-box-input {
+
+    outline: 0;
+    font-size: 1.2em;
+    color: #fff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+
+}
+
+.search-box-button {
+
+   display: flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color: #14c0c7;
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+
+}
+
+.search-box-button:active  {
+
+    transform: scale(.85);
+
+}
+
+.search-box-icone {
+
+    margin: auto;
+    color: #fff;
+
+}
+
+
+@media screen and (min-width: 400px){
+    
+    .search-box:hover .search-box-input {
+        width: 360px;
+    }
+
 }
 
 .anuncios {
@@ -97,6 +182,9 @@ img {
   border-radius: 30px; 
   margin: 3%;
 }
-
-
-
+.hero{
+display:center;
+padding-left: 6em;
+width: 200px;
+justify-content:center;
+}
