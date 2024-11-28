@@ -1,4 +1,3 @@
-
 * {
     font-family: arial;
 }
@@ -16,7 +15,7 @@ body {
 }
 
 header {
-    background-color: rgb(50, 49, 51);
+    background-color: rgb(206, 129, 57);
     color: #ffffff;
     padding: 12px;
     border: none;
@@ -75,8 +74,8 @@ main {
 
 .card button{
     border-radius: 8px;
-    background-color:#636363;
-    border-color: white;
+    background-color:#e7750a;
+    border-color: rgb(150, 67, 12);
     color:white;
     width: 100px;
     height: 40px;
@@ -102,7 +101,7 @@ main {
 }
 
 /* Chrome, Opera ySafari */
-.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+.search-box-input::-webkit-input-placeholder { color: #030000; }
 
 /* Firefox 19+ */
 .search-box-input::-moz-placeholder { color: #ffffff; }
@@ -115,7 +114,7 @@ main {
     
     display: flex;
     border-radius: 50px;
-    background-color: #4c4c4c;
+    background-color: #ffffff;
     height: 50px;
     width: 430px;;
 
@@ -133,7 +132,7 @@ main {
 
     outline: 0;
     font-size: 1.2em;
-    color: #fff;
+    color: #030000;
     width: 0;
     padding: 0;
     border: none;
@@ -148,7 +147,7 @@ main {
    border-radius: 50%;
    width: 45px;
    height: 45px;
-   background-color: #14c0c7;
+   background-color: #63d367;
    border: none;
    cursor: pointer;
    transition: .3s;
@@ -164,7 +163,7 @@ main {
 .search-box-icone {
 
     margin: auto;
-    color: #fff;
+    color: #0f0101;
 
 }
 
